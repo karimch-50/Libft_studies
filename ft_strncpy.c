@@ -1,7 +1,7 @@
 #include <unistd.h>
 char *ft_strncpy(char *dest, char *src,unsigned n)
 {
-	int i;
+	unsigned int i;
 	i = 0;
 	while (src[i] != '\0' && i < n)
 	{
