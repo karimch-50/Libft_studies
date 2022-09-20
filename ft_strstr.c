@@ -5,7 +5,7 @@ char *ft_strstr(char *str, char *tofind)
 	int i;
 	int j;
 	i = 0;
-	if (!tofind)
+	if (!tofind[i])
 		return((char *)&str[i]);
 
 	while (str[i] != '\0')
