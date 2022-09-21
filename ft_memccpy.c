@@ -6,7 +6,10 @@ char *ft_memccpy(char *dest, char *src, int c, int n)
 
 	i = -1;
 	while (i < n && src[i] != c)
-		dest[i++] = src[i];
+	{
+		dest[i] = src[i];
+		i++;
+	}
 	return (dest);
 }
 
