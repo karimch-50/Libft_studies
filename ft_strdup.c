@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 char *ft_strdup(char *s)
 {
@@ -15,17 +16,20 @@ char *ft_strdup(char *s)
 	if (!ret)
 		return NULL;
 	while (s[i])
-		ret[i++] = s[i];
+	{
+		ret[i] = s[i];
+		i++;
+	}
 	s[i] = '\0';
 	return ret;
 }
 
 //testing
 
-// int main()
-// {
-// 	char str[12] = "Hello World";
-// 	char *s = ft_strdup(str);
-// 	puts(s);
-// 	return (0);
-// }
+int main()
+{
+	char str[12] = "Hello World";
+	char *s = ft_strdup(str);
+	puts(s);
+	return (0);
+}
