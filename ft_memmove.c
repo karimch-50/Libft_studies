@@ -12,7 +12,10 @@ char *ft_memmove(char *dest, const char *src, int n)
 	// 		dest[n] = src[n];
 	// else
 		while (i < n)
-			dest[i++] = src[i];
+		{
+			dest[i] = src[i];
+			i++;
+		}
 	return dest;
 }
 
