@@ -1,16 +1,7 @@
-#include <unistd.h>
-#include <bsd/string.h>
-#include <stdio.h>
+#include "libft.h"
+//#include <bsd/string.h>
 
-int	ft_strlen(char *str)
-{
-	int count;
-	count = 0;
-	while (str[count] != '\0')
-		count++;
-	return count;
-}
-
+//size_t strlcat(char *dst, const char *src, size_t size);
 int ft_strlcat(char *dest, char *src, int size)
 {
 	int dest_len;
@@ -38,11 +29,11 @@ int ft_strlcat(char *dest, char *src, int size)
 }
 
 
-int main()
-{
-	char dest[] = "hello\0";
-	char src[] = " my name is karim\0";
-	printf("%d\n", ft_strlcat(dest, src, 8));
-	puts(dest);
-	return (0);
-}
+// int main()
+// {
+// 	char dest[] = "hello\0";
+// 	char src[] = " my name is karim\0";
+// 	printf("%d\n", ft_strlcat(dest, src, 8));
+// 	puts(dest);
+// 	return (0);
+// }

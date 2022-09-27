@@ -1,5 +1,6 @@
 #include "libft.h"
 
+//char *strncpy(char *restrict dest, const char *restrict src, size_t n);
 char *ft_strncpy(char *dest, char *src,unsigned n)
 {
 	unsigned int i;

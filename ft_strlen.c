@@ -1,5 +1,6 @@
 #include "libft.h"
 
+//size_t strlen(const char *s);
 int	ft_strlen(char *str)
 {
 	int count;
