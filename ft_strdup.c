@@ -1,6 +1,4 @@
-#include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
 char *ft_strdup(char *s)
 {
@@ -26,10 +24,10 @@ char *ft_strdup(char *s)
 
 //testing
 
-int main()
-{
-	char str[12] = "Hello World";
-	char *s = ft_strdup(str);
-	puts(s);
-	return (0);
-}
+// int main()
+// {
+// 	char str[12] = "Hello World";
+// 	char *s = ft_strdup(str);
+// 	puts(s);
+// 	return (0);
+// }

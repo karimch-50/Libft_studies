@@ -1,10 +1,6 @@
-#include <unistd.h>
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
 
 //char *strncat(char *restrict dest, const char *restrict src, size_t n);
-
-
 char *ft_strncat(char *dest, const char *src, int n)
 {
 	int dest_len;

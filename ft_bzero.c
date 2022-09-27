@@ -1,21 +1,12 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <string.h>
-
-char *ft_memset(char *s, int c, int n)
-{
-	int i;
-	i = -1;
-	while (i < n)
-		s[i++] = c;
-	return (s);
-}
+// #include <unistd.h>
+//#include <stdio.h>
+// #include <string.h>
+#include "libft.h"
 
 void ft_bzero(char *s, int n)
 {
 	ft_memset(s, 0, n);
 }
-
 
 // int main()
 // {

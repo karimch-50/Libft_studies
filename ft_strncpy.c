@@ -1,4 +1,5 @@
-#include <unistd.h>
+#include "libft.h"
+
 char *ft_strncpy(char *dest, char *src,unsigned n)
 {
 	unsigned int i;

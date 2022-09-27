@@ -9,7 +9,7 @@ int	ft_strlen(char *str)
 	while (str[count] != '\0')
 		count++;
 	return count;
-} 
+}
 
 int ft_strlcat(char *dest, char *src, int size)
 {

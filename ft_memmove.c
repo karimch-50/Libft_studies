@@ -1,6 +1,4 @@
-#include <unistd.h>
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
 
 //void *memmove(void *dest, const void *src, size_t n);
 char *ft_memmove(char *dest, const char *src, int n)

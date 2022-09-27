@@ -1,10 +1,7 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <bsd/string.h>
+#include "libft.h"
+//#include <bsd/string.h>
 
 //char *ft_strnstr(const char *big, const char *little, size_t len);
-
-
 char *ft_strnstr(char *str, char *tofind, int n)
 {
 	int i;
@@ -28,13 +25,13 @@ char *ft_strnstr(char *str, char *tofind, int n)
 	return (0);
 }
 
-int main()
-{
-	char str[] = "Hello my name is karim";
-	char tofind[] = "";
-	puts(ft_strnstr(str, tofind, 5));
+// int main()
+// {
+// 	char str[] = "Hello my name is karim";
+// 	char tofind[] = "";
+// 	puts(ft_strnstr(str, tofind, 5));
 
-	return (0);
-}
+// 	return (0);
+// }
 
 // gcc ft_strnstr.c -lbsd
